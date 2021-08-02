@@ -3,7 +3,7 @@ package LazyPoint
 import (
 	"math"
 
-	P "github.com/Kassan424kh/golang-lazy-brush/point"
+	P "github.com/Kassan424kh/golang-lazy-brush/V1/point"
 )
 
 type LazyPoint struct {
