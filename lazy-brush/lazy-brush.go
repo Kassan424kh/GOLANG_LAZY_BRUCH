@@ -1,8 +1,8 @@
 package LazyBrush
 
 import (
-	LP "github.com/Kassan424kh/golang-lazy-brush/v1/lazy-point"
-	P "github.com/Kassan424kh/golang-lazy-brush/v1/point"
+	LP "github.com/Kassan424kh/golang-lazy-brush/lazy-point"
+	P "github.com/Kassan424kh/golang-lazy-brush/point"
 )
 
 /**

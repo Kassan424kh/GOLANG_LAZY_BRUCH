@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	LB "github.com/Kassan424kh/golang-lazy-brush/v1/lazy-brush"
-	P "github.com/Kassan424kh/golang-lazy-brush/v1/point"
+	LB "github.com/Kassan424kh/golang-lazy-brush/lazy-brush"
+	P "github.com/Kassan424kh/golang-lazy-brush/point"
 )
 
 func main() {
