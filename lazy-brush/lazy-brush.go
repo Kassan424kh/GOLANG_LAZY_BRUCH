@@ -26,11 +26,13 @@ type LazyBrush struct {
 
 func Init() LazyBrush {
 	lb := LazyBrush{
-		Radius:   30,
-		Pointer:  LP.LazyPoint{X: 0, Y: 0},
-		Brush:    LP.LazyPoint{X: 0, Y: 0},
-		Angle:    0,
-		Distance: 0,
+		Radius:    30,
+		Pointer:   LP.LazyPoint{X: 0, Y: 0},
+		Brush:     LP.LazyPoint{X: 0, Y: 0},
+		Angle:     0,
+		Distance:  0,
+		isEnabled: true,
+		hasMoved:  false,
 	}
 
 	return lb
