@@ -1,3 +1,6 @@
+### بسم الله الرحمن الرحيم
+
+
 Cloned this nice tool from https://github.com/dulnan/lazy-brush, 🌴 Thanks alot to [dulnan](https://github.com/dulnan)
 
 
@@ -15,14 +18,7 @@ import (
 )
 
 func main() {
-	lb := LB.LazyBrush{
-		Radius:   30,
-		Pointer:  LP.LazyPoint{X: 0, Y: 0},
-		Brush:    LP.LazyPoint{X: 0, Y: 0},
-		Angle:    0,
-		Distance: 0,
-	}
-	lb.Enable()
+	lb := LB.Init()
 
 	lb.Update(P.Point{X: 50, Y: 0}, false)
 	fmt.Println(lb.GetBrushCoordinates())

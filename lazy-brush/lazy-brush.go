@@ -24,6 +24,18 @@ type LazyBrush struct {
 	hasMoved bool
 }
 
+func Init() LazyBrush {
+	lb := LazyBrush{
+		Radius:   30,
+		Pointer:  LP.LazyPoint{X: 0, Y: 0},
+		Brush:    LP.LazyPoint{X: 0, Y: 0},
+		Angle:    0,
+		Distance: 0,
+	}
+
+	return lb
+}
+
 /**
  * Enable lazy brush calculations.
  *
