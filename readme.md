@@ -12,9 +12,9 @@ package main
 import (
 	"fmt"
 
-	LB "github.com/Kassan424kh/lazy-brush/lazy-brush"
-	LP "github.com/Kassan424kh/lazy-brush/lazy-point"
-	P "github.com/Kassan424kh/lazy-brush/point"
+	LB "github.com/Kassan424kh/golang-lazy-brush/lazy-brush"
+	LP "github.com/Kassan424kh/golang-lazy-brush/lazy-point"
+	P "github.com/Kassan424kh/golang-lazy-brush/point"
 )
 
 func main() {
